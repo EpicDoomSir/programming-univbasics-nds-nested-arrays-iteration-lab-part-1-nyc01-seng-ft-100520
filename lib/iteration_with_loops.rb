@@ -9,7 +9,7 @@ def find_even_values(src)
     inner_counter = 0
     while inner_counter < src[counter].size do
       if src[counter][inner_counter].even?
-        even_nums << 
+        even_nums << src[counter][inner_counter]
       end
     end
   end
